@@ -10,6 +10,9 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
+# Clone install program
+git clone https://github.com/tuanqing/install-program package/install-program
+
 # Modify hostname
 sed -i 's/OpenWRT/NoneBox/g' package/base-files/files/bin/config_generate
 
