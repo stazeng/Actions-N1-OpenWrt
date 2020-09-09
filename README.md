@@ -10,7 +10,7 @@ Build OpenWrt using GitHub Actions
 
 ## Usage
 
-- 使用：编辑`.config` 配置文件并确认后开始运行。注意：.congfig 现在本地 make menuconfig 配置生成，然后复制黏贴上来即可。
+- 使用：编辑`.config` 配置文件并确认后开始运行。注意：`.config` 先在本地 make menuconfig 生成，然后复制粘贴过来即可。
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
 - Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
