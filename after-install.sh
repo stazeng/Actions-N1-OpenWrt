@@ -17,4 +17,4 @@ git clone https://github.com/tuanqing/install-program package/install-program
 sed -i 's/OpenWRT/NoneBox/g' package/base-files/files/bin/config_generate
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.1.254/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.3.250/g' package/base-files/files/bin/config_generate
