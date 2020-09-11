@@ -29,8 +29,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
-  DIY_P1_SH: bef-feeds-inst.sh
-  DIY_P2_SH: aft-feeds-inst.sh
+  DIY_P1_SH: before-install.sh
+  DIY_P2_SH: after-install.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
