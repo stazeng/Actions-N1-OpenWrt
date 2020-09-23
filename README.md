@@ -13,6 +13,7 @@ Build OpenWrt using GitHub Actions
 - feeds update 之前
   - 打开 ‘helloworld’ 源。
 - feeds update 之后
+  - 添加 install-program 包。
   - N1 作为旁路由使用，添加了防火墙策略。IP 设为：192.168.3.250；改 hostname 为：NoneBox。
   
 ## 使用
