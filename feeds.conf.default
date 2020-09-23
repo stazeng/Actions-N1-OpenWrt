@@ -9,5 +9,13 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 src-git helloworld https://github.com/fw876/helloworld
+#
+# 其它插件
+#
+#svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome package/adguardhome
+#svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome
+#svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-atmaterial package/luci-theme-atmaterial
+#git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+#
 #src-git kenzok https://github.com/kenzok8/openwrt-packages
 #src-git small https://github.com/kenzok8/small
