@@ -8,6 +8,13 @@ Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+## 说明
+
+- feeds update 之前
+  - 打开 ‘helloworld’ 源。
+- feeds update 之后
+  - N1 作为旁路由使用，添加了防火墙策略。IP 设为：192.168.3.250；改 hostname 为：NoneBox。
+  
 ## 使用
 
 - 编辑`.config` 配置文件并确认后开始运行。
