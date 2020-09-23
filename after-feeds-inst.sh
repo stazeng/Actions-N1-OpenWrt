@@ -12,5 +12,5 @@ sed -i 's/OpenWrt/NoneBox/g' package/base-files/files/bin/config_generate
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.250/g' package/base-files/files/bin/config_generate
 
-# 作为旁路由防火墙规则
+# 打开旁路由防火墙规则
 echo "iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/config/firewall/files/firewall.user
