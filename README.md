@@ -21,7 +21,7 @@ Build N1 OpenWrt using GitHub Actions
 - 方法1：本地 Ubuntu 18.04 中 make menuconfig 生成 `.config` 配置文件，使用 Sublime Text 打开，复制、粘贴并覆盖 github 上的 `.config`，提交修改后 Action 开始自动编译。
 - 方法2：仅想更新源代码时，编辑一下 `.config` 配置文件，提交修改后开始自动编译。
 - 取消cron定时编译。
-- 打开上传国内牛奶快传，编译完成后会给出国内牛奶快传的链接地址，IDM下载速度飞快。
+- 打开国内奶牛快传选项，编译完成后会给出链接地址，下载速度飞快。
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
 ## License
